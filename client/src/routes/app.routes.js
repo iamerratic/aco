@@ -1,12 +1,18 @@
-import React from 'react';
-import { Route } from 'react-router-dom';
+import React, { Suspense, lazy } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import IndexPage from '../pages/Index';
+import LoaderComponent from '../components/ui/Loader';
+
+var IndexPage = lazy(() => import('../pages/Index'));
 
 function AppRoutes() {
 
     return (
-        <Route path="/" component={IndexPage} />
+        <Suspense fallback={LoaderComponent}>
+            <Switch>
+                <Route path="/" component={IndexPage} />
+            </Switch>
+        </Suspense>
     );
 }
 
