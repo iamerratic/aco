@@ -1,50 +1,51 @@
 var strings = {
     header: {
-        address: 'Dehardun Uttrakhand',
-        phone: '+91-99xxxxxx87',
+        address: '23 Fafana, Bajwar, Almora, Uttrakhand',
+        phone: '1800 419 4849',
         sign_up: 'Sign Up',
         sign_in: 'Sign In',
         nav_links: {
             home: 'Home',
-            packages: 'Packages',
+            food: 'Food',
             profile: 'Profile',
             contact_us: 'Contact Us',
-            about_us: 'About Us'
+            about_us: 'About Us',
+            manage_property: 'Register Your Space'
         }
     },
     footer: {
         holiday_tour_and_travels: {
-            name: 'HOLIDAY TOUR & TRAVELS',
-            content: 'World\'s leading tour and travels Booking website,Over 30,000 packages worldwide.'
+            name: 'ACO FOOD & SERVICES',
+            content: 'India\'s youngest housing service provider work\'s on your order',
         },
         address_and_contact_info: {
             name: 'ADDRESS & CONTACT INFORMATION',
-            content: '28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A. Landmark : Next To Airport',
-            phone: '+91-99xxxxxx87'
+            content: '23 Fafana Vill, Bajwar, Almora, Uttarakhand-263601, India',
+            phone: '1800 419 4849',
         },
         support_and_help: {
             name: 'SUPPORT & HELP',
             links: {
                 about_us: 'About Us',
-                discount: 'Discount',
-                branding_offers: 'Branding Offers',
+                complain: 'Raise a request',
+                feedback: 'Feedbacks',
                 faq: 'FAQ',
-                blog: 'Blog',
+                partner: 'Partners',
                 contact_us: 'Contact Us',
             }
         },
         follow_with_us: {
-            name: 'FOLLOW WITH US',
-            content: 'Join the thousands of other There are many variations of passages of Lorem Ipsum available'
+            name: 'GET IN-TOUCH WITH US',
+            content: 'Follow us on our official page, to stay updated, get info about offers and discounts first'
         }
     },
     copyright: 'Copyrights © 2020 Aco Homes. All Rights Reserved',
     index_page: {
-        heading: 'Plan Your Travel Now!',
-        sub_heading: 'Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events',
+        heading: 'Plan Your Stay Now!',
+        sub_heading: 'Experience the value, quality and time we are offering to you, we find you proper place that fit on you the most, In times like these, have a place to stay that feels like home! ',
         search: {
             main_search: 'Enter City',
-            sub_search: 'Search over a million tour and travels, sight seeings, hotels and more',
+            sub_search: 'Enter nearby Landmark, area or place you want accommodation',
             button: 'Search'
         },
         cities: {
@@ -55,7 +56,7 @@ var strings = {
         },
         popular_cities: {
             heading: 'Popular',
-            sub_heading: 'World\'s leading Hotel Booking website,Over 30,000 Hotel rooms worldwide. Book Hotel rooms and enjoy your holidays with distinctive experience',
+            sub_heading: 'Don\'t Judge a book by it\'s colver, When our work talk we Don\'t, find affordable place without broker or middle man',
             span_content: 'Cities',
             cities: {
                 dehradun: 'Dehradun',
@@ -66,13 +67,13 @@ var strings = {
             }
         },
         offers: {
-            heading: 'Standardized Budget Rooms',
-            price: 'Rs.1000/-',
+            heading: 'Facilities Like Never Before',
+            price: 'Rs.1500/-',
             facilities: {
                 free_wifi: 'Free WiFi',
-                breakfast: 'Breakfast',
-                television: 'Television',
-                gym: 'Gym',
+                free_electricity: 'Free Electricity',
+                free_laundry: 'Free Laundry',
+                free_covid_Kit: 'Free Covid Kit'
             },
         }
     }

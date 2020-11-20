@@ -5,7 +5,7 @@ import images from '../../../utils/image.util';
 
 function OffersComponent() {
 
-    var { index_page: { offers: { heading, price, facilities: { free_wifi, breakfast, television, gym } } } } = strings;
+    var { index_page: { offers: { heading, price, facilities: { free_wifi, free_electricity, free_laundry, free_covid_Kit } } } } = strings;
     var { baseUrl, index_page: { offers: { facilities: { wifi_img, breakfast_img, television_img, gym_img } } } } = images;
 
     return (
@@ -21,13 +21,13 @@ function OffersComponent() {
                                         </a><span>{free_wifi}</span>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-duration="0.7s">
-                                        <a href="#!" className="waves-effect waves-light btn-large offer-btn"><img src={baseUrl + breakfast_img} alt="" /> </a><span>{breakfast}</span>
+                                        <a href="#!" className="waves-effect waves-light btn-large offer-btn"><img src={baseUrl + breakfast_img} alt="" /> </a><span>{free_electricity}</span>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-duration="1.1s">
-                                        <a href="#!" className="waves-effect waves-light btn-large offer-btn"><img src={baseUrl + television_img} alt="" /> </a><span>{television}</span>
+                                        <a href="#!" className="waves-effect waves-light btn-large offer-btn"><img src={baseUrl + television_img} alt="" /> </a><span>{free_laundry}</span>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-duration="1.3s">
-                                        <a href="#!" className="waves-effect waves-light btn-large offer-btn"><img src={baseUrl + gym_img} alt="" /> </a><span>{gym}</span>
+                                        <a href="#!" className="waves-effect waves-light btn-large offer-btn"><img src={baseUrl + gym_img} alt="" /> </a><span>{free_covid_Kit}</span>
                                     </li>
                                 </ul>
                             </div>
